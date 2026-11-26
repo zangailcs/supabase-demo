@@ -1,0 +1,14 @@
+{
+  "name": "supabase-demo",
+  "description": "Supabase 读写 demo（ESA FC handler 形态）",
+  "installCommand": "npm install",
+  "buildCommand": "",
+  "regionFunction": {
+    "runtime": "nodejs22",
+    "instanceType": "1C2G",
+    "minInstances": 0,
+    "concurrency": 10,
+    "timeout": 60,
+    "idleTimeout": 300
+  }
+}
