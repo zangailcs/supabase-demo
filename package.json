@@ -1,0 +1,16 @@
+{
+  "name": "supabase-demo",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": "22.20.0"
+  },
+  "scripts": {
+    "list": "node --env-file=.env demo.mjs bj list",
+    "post": "node --env-file=.env demo.mjs bj post"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0"
+  }
+}
