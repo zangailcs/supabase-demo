@@ -5,7 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 
 // 环境变量名按平台实际注入写死（北京 suffix 格式 / 杭州 prefix 格式）
 const INSTANCES = {
-  bj: { url: 'NEXT_PUBLIC_SUPABASE_URL_HTTP_M6T1', key: 'NEXT_PUBLIC_SUPABASE_ANON_KEY_M6T1' },
+  bj: { url: 'CA5D_SUPABASE_URL', key: 'CA5D_SUPABASE_ANON_KEY' },
   hz: { url: 'XGD4_SUPABASE_URL_HTTP', key: 'XGD4_SUPABASE_ANON_KEY' },
 };
 const clients = {};
